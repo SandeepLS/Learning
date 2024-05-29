@@ -1,0 +1,33 @@
+JavaScript:- JavaScript is a scripting language, you can use to make web pages more interactive. 
+It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.
+
+JavaScript Engine:- JavaScript as a language, as a developer write a code for web application, which will work on the browser.
+                    The Browser as to interpret, the browser as converted that code into Machine code.
+                    JavaScript engine convert your Js code, and will put it into machine code.
+Do we have only one JS engine that's not the case, we have a multiple browser like we have Chrome, firefox, safari, Opera,Netscape.
+when we have all thes available browser, they use different JS emgine.
+the first engine was spidermonkey developed by Netscape.
+Then Chrom as built there own JS engine, which is called V8.It is so populer engine.
+the V8 convert that code into machine code, which make it much faster. 
+To use V8 that build Run-time environment, which will work on the machine. that the name it as node.js.
+using node.js we can build stand-alone application.
+
+/*
+In computer science, data is anything that is meaningful to the computer.
+JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
+
+For example, computers distinguish between numbers, such as the number 12, and strings, such as "12", "dog", or "123 cats",
+which are collections of characters. Computers can perform mathematical operations on a number, but not on a string.
+
+Variables allow computers to store and manipulate data in a dynamic fashion.
+They do this by using a "label" to point to the data rather than using the data itself. Any of the eight data types may be stored in a variable.
+
+We tell JavaScript to create or declare a variable by putting the keyword var in front of it, like so:
+*/
+Ex:-
+var ourName;
+
+/*
+creates a variable called ourName. In JavaScript we end statements with semicolons.
+Variable names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number.
+*/
