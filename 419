@@ -1,0 +1,45 @@
+1) Browser:- Nodejs instal
+2) command prompt:- npm init reract-app music-app  (it will install react Js library, once the appli is intalled, all we would be required online editor.)
+----------------OR--------------------------------------
+-> music-app:- client:-
+2) npx create-react-app ./
+   npm start
+
+  version check:- cmd -> npx create-react-app --version
+  Upgrade:- cmd -> npm i react@latest react-dom@latest
+
+----------------------------------------------------
+if we don't want to use IDE, we can use codesandbox.io, It is cloud base IDE.
+
+-----------------------------------------------------
+we should use Vite, it is basic boiler-Plate code for react.
+https://vitejs.dev/guide/
+
+npm create vite@latest
+npm install
+npm run dev
+----------------------------------
+   <!doctype html>
+   <html lang="en">
+     <head>
+       <meta charset="UTF-8" />
+       <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <title>Vite + React</title>
+     </head>
+     <body>
+       <div id="root">
+         <!-- React code will mount Dom over hetre. -->
+       </div>
+       <script type="module" src="/src/main.jsx"></script>
+       <!-- Her it is also Loading relative files. -->
+     </body>
+   </html>
+-------------------------------------
+Shortform keys:-
+rfc = react function component
+rcc = react class component
+rce = reactClassExportComponent
+rconst = concept of state
+rpce = reactClassPrueExportComponent
+rafce, 
