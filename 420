@@ -1,0 +1,56 @@
+Components:- are the building blocks of any react application,
+  that represent a part of user interface.
+  Ex:-facebook homepage.
+    the entrire UI broken down into several component
+    -credential componenr
+    -signup component
+    -image component
+    -logo component
+    A traditional website broken down into:-Header, sideNav, MainContent & Footer.
+
+  Reusability:- Components can be reused, multiple times across the applicatopn.
+  this reduce the development time.
+
+  Nested:-Component can also be Nested component, 
+  One component can internally consist of several component.
+
+  Render method:-Component must define a render method, that's specify how exactly looks & fell,
+  A Component can also recive a properties, from it's Parent component.
+  
+Types:-
+  (i)Stateless Functional component:-
+      They are JS Function,
+      that return HTML.
+      They can be contained in a .js OR .jsx file.
+
+  (ii)Statefull Class component:-these are ES6 class.
+      The Regular classes, that extended the class component.
+      They must contain a render method, that return HTML.
+      Can be contained in a .js OR .jsx file.
+
+App.js is the main component, that gets render to the DOM.
+
+Ex:- Fisrst Component:-
+    *)In index.js:- App is main component, the gets render to the ReactDOM.
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(
+        <React.StrictMode>
+          <App />         //Component
+        </React.StrictMode>
+      );
+    
+    *)In App.js:- Can be consist of several other component, that can be nested.
+      import './App.css';
+      function App() {
+        return ( 
+          <div>
+            <h1>Hello </h1>
+            <h1>Hello </h1>
+         </div>
+        );
+      }
+      export default App;
+
+
+
+      
