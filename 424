@@ -1,0 +1,22 @@
+JavaScript is an object-oriented programming (OOP) language:-
+-> JS OPPs, it supports the principles of object-oriented design like encapsulation, inheritance, polymorphism,
+   and abstraction.
+-> Although JavaScript is not a class-based OOP language like Java or C#, it uses prototypes to achieve
+   object-oriented behavior. 
+-> In recent years, the introduction of ES6 classes has made the OOP approach more familiar and accessible,
+   for developers coming from class-based languages.
+
+  Examples: There are some key concepts of object-oriented programming in JavaScript:-
+   1 Object: Collections of properties and methods.
+   2 Classes: A class in JavaScript is a blueprint for creating objects.
+   3 Encapsulation: Protecting data through controlled access.
+   4 Inheritance: Child classes inheriting from parent classes.
+   5 Polymorphism: Different objects responding to the same method differently.
+   6 Abstraction: Simplifying the interface by hiding complex details.
+
+Encapsulation: Binding code & data together into single unit.
+Inheritence: When one object, acquire all properties & behave like a parent object.
+Polymorphisam: If one task is performed in different ways is known as Poly.
+               To convey client into different ways, we draw something, will give realtime example etc.
+Abstraction: Hiding internal details & showing functionality.
+             Ex: phoneCall, Becauze we don't know the internal processing.
