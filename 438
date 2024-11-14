@@ -1,0 +1,76 @@
+Database:- is a organized collection of data. it is collection of tables, queries, reports, view and other object.
+Ex:- Airline Booking Data.
+
+DBMS:-
+-DBMS stores data as File.
+-Normalization is not present in DBMS
+-It does-not support Distributed data.
+-EX;XML
+
+RDBMS:-
+-RDBMS stores data, in Tabular form.
+-Normalization is present.
+-It support Distributed data.
+-Ex:MySQL, ms-acess, SQL server, Orcle, PostgreSQL.
+
+Distributed DB:-represent multiple interconnected database, spred out across, several sites connected by network.
+    -Homogenous databases allow users to access data from each of the databases
+    -Heterogeneous a particular site can be completely unaware, of other sites
+
+What can we stor in Database:- text, number, picture.
+
+Learn:- https://www.integrate.io/blog/the-sql-vs-nosql-difference/#two
+
+SQL:- is a programing langvage, that is used to interact with relational database.
+ex:- we are building an application or software, now our application definetly need data,
+     but the data is genrally not stored in the application itself,
+     most cases the data is stored in the relational database.
+Ex:-Tou have an application its needs data, the data is stored in the relational database,
+     so thers need to be a way for ur application to interact with ur Relational database.
+
+The Relational database understand only one langvage, that is SQL.
+
+There are several different types of Relational database:-The most imp is:-
+1)MySQL
+2)Oracle
+3)Microsoft SQl Server
+4)PostgreSQL
+
+RoadMap:-https://techtfq.com/blog/how-to-learn-sql-for-free-roadmap-to-learning-sql
+
+Relational V/S Non-Relational database:-
+(a)Relational DB:-
+    A relational database/RDMS, stores information in tables.
+    It support SQL query language.
+    It not suitable for Hierarchical data storage.
+    Often, thes tables have share information b/w them, causing a relationship to from between tables.
+    Each table, will have a column, that must have unique values- known as the primary key.
+  
+    Adv:-                              Div:-
+    ACID compliance                    Scalability
+    Data accuracy                      Flexibility
+    Normalization                      Performance
+    Simplicity
+
+(b)Non-Relational DB:-
+    Non-relational DB, some time we called NoSQL.
+    is any kind of data, does not use the tables, rows & column structure data concept, from relational database.
+    It making them great at, Horizontal Scaling.
+    It support JSON query language.
+    It is suitable for Hierarchical data storage.
+  
+    There are a few different groups of database types that store the data in different ways:-
+    Document DB
+    Key-Value DB
+    Graph DB
+    Wide-column DB
+
+Difference:
+SQL is primarily used to query and operate database systems.
+MySQL allows you to handle, store, modify delete data and store data in an organized way.
+
+In comparision to the sql server, MongoDB is faster & more scalable.
+The sql server does not accommodate, large amount of data, However MongoDB does.
+
+API: is an abbrevation for application programing language.
+It is a collection of Communication protocals & Subroutines.
