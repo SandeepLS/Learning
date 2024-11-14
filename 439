@@ -1,0 +1,19 @@
+Relational:-
+-> In RDB, data is stored in tabuler form with rows & column.
+-> It is Vertically scalable.
+-> It is Table base database.
+-> RDB is SQL(structured query language) for defining & manipulating the data.
+-> RDB emphasizes on ACID properties(Autonicity, Consistency, isolation & Durability).
+-> Ex: MySQL, Oracle, PostgreSQL.
+-> Use cases: Complex software solution, eCommerce, financial application.
+
+Non-Relational:-
+-> In NonRDB is a type of database, that does not store data in tabuler form,
+   Insted this type of DB uses a hierarchical structure to store data.
+-> It is Horizontally scalable.
+-> It is Document base database like, Key-value pairs, graph database, wide-column.
+-> NRDB uses unstructured query language, depending on data model.
+-> NRB follows Brewers CAP theorem(Consistency, Availability, & partition tolerance).
+-> Ex: MongoDB, BigTable, Redis.
+-> Use cases: Storing & scalling unstructured data, MVPs for strtups, 
+   sprint-based Agile development.
