@@ -1,0 +1,27 @@
+1)Five commands in sql:-
+    a)Show: It check the default Page & Line size.
+      Ex:Show pages, Show lines
+    
+    b)Set: It is used to change the length of Page & Line size.
+      Ex:Set pages 200;
+    
+    c)clrscr(Clear_Screen): We get the fresh page.
+    
+    d)DESC(description): To check the  column records, Based on each & every tabel.
+      Ex:desc tabel_name;
+    
+    e)ED:It make changes, inside our query.
+
+2)Row:- is known as Tuple(A single entity in a tabel).
+        It cab be categorized, Horizental scalling.
+ Column:- is known as Attributes OR Field.
+          It can be categorized, Vertical scalling
+ Tabel:-is organized collection of data, syored in the form of rows & columns.
+
+3)Entity:- is reffer to an Object. fEX: Customers, Car, oen etc.
+  Two types:-
+  Tangible: Which is physical-object, that we can touch/see.
+  Ex:In database, a tabel represent a tangible entity, Because it contains a physical object.
+  
+  Intangible:Which is non-physical object, that we can-not touch/see.
+  Ex;A bank account, logically exists.
