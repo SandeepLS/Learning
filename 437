@@ -1,0 +1,14 @@
+SQL:- is a programing langvage, that is used to interact with relational database.
+ex:- we are building an application or software, now our application definetly need data, but the data is genrally not stored in the application itself,
+most cases the data is stored in the relational database.
+Ex:-Tou have an application its needs data, the data is stored in the relational database, so thers need to be a way for ur application to interact with ur Relational database.
+
+The Relational database understand only one langvage, that is SQL.
+
+There are several different types of Relational database:-The most imp is:-
+1)MySQL
+2)Oracle
+3)Microsoft SQl Server
+4)PostgreSQL
+
+RoadMap:-https://techtfq.com/blog/how-to-learn-sql-for-free-roadmap-to-learning-sql
